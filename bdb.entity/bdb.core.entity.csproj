@@ -1,0 +1,104 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{09141E2D-62AE-4E79-B3A4-CFF0C12CB175}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "bdb.core.entity"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "bdb.core.entity"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "Axiom.RenderSystems.DirectX9"
+                    AssemblyName = "Axiom.RenderSystems.DirectX9"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.RenderSystems.DirectX9.dll"
+                />
+                <Reference
+                    Name = "Axiom.RenderSystems.OpenGL"
+                    AssemblyName = "Axiom.RenderSystems.OpenGL"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.RenderSystems.OpenGL.dll"
+                />
+                <Reference
+                    Name = "Axiom.SceneManagers.Bsp"
+                    AssemblyName = "Axiom.SceneManagers.Bsp"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.SceneManagers.Bsp.dll"
+                />
+                <Reference
+                    Name = "Axiom.SceneManagers.Octree"
+                    AssemblyName = "Axiom.SceneManagers.Octree"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.SceneManagers.Octree.dll"
+                />
+                <Reference
+                    Name = "Axiom.Plugins.CgProgramManager"
+                    AssemblyName = "Axiom.Plugins.CgProgramManager"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.Plugins.CgProgramManager.dll"
+                />
+                <Reference
+                    Name = "Axiom.Plugins.ParticleFX"
+                    AssemblyName = "Axiom.Plugins.ParticleFX"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.Plugins.ParticleFX.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include/>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

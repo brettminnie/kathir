@@ -1,0 +1,154 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{C7EA29AF-826A-47FB-88CF-5D35011CB91B}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "TheBrokenWorld"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Exe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "TheBrokenWorld"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "bdb.core"
+                    AssemblyName = "bdb.core"
+                    HintPath = "..\bdb.core\bin\Debug\bdb.core.dll"
+                />
+                <Reference
+                    Name = "bdb.core.ai"
+                    AssemblyName = "bdb.core.ai"
+                    HintPath = "..\bdb.core.ai\bin\Debug\bdb.core.ai.dll"
+                />
+                <Reference
+                    Name = "bdb.core.engine"
+                    AssemblyName = "bdb.core.engine"
+                    HintPath = "..\bdb.core.engine\bin\Debug\bdb.core.engine.dll"
+                />
+                <Reference
+                    Name = "bdb.core.networking"
+                    AssemblyName = "bdb.core.networking"
+                    HintPath = "..\bdb.core.networking\bin\Debug\bdb.core.networking.dll"
+                />
+                <Reference
+                    Name = "bdb.core.entity"
+                    AssemblyName = "bdb.core.entity"
+                    HintPath = "..\bdb.entity\bin\Debug\bdb.core.entity.dll"
+                />
+                <Reference
+                    Name = "bdb.core.maths"
+                    AssemblyName = "bdb.core.maths"
+                    HintPath = "..\bdb.maths\bin\Debug\bdb.core.maths.dll"
+                />
+                <Reference
+                    Name = "bdb.physics"
+                    AssemblyName = "bdb.physics"
+                    HintPath = "..\bdb.physics\bin\Debug\bdb.physics.dll"
+                />
+                <Reference
+                    Name = "bdb.core.sound"
+                    AssemblyName = "bdb.core.sound"
+                    HintPath = "..\bdb.sound\bin\Debug\bdb.core.sound.dll"
+                />
+                <Reference
+                    Name = "bdb.core.tools"
+                    AssemblyName = "bdb.core.tools"
+                    HintPath = "..\bdb.tools\bin\Debug\bdb.core.tools.dll"
+                />
+                <Reference
+                    Name = "Tao.Platform.Windows"
+                    AssemblyName = "Tao.Platform.Windows"
+                    HintPath = "..\..\Axiom\DemoTest\bin\Debug\Tao.Platform.Windows.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "gameMain.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,155 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{57C209B6-8299-4754-BC3E-EEAF18D5C085}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "bdb.core.engine"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "bdb.core.engine"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "Tao.Platform.Windows"
+                    AssemblyName = "Tao.Platform.Windows"
+                    HintPath = "..\depend\Tao.Platform.Windows.dll"
+                />
+                <Reference
+                    Name = "Tao.Cg"
+                    AssemblyName = "Tao.Cg"
+                    HintPath = "..\depend\Tao.Cg.dll"
+                />
+                <Reference
+                    Name = "Tao.DevIl"
+                    AssemblyName = "Tao.DevIl"
+                    HintPath = "..\depend\Tao.DevIl.dll"
+                />
+                <Reference
+                    Name = "Tao.OpenGL"
+                    AssemblyName = "Tao.OpenGl"
+                    HintPath = "..\depend\Tao.OpenGL.dll"
+                />
+                <Reference
+                    Name = "Axiom.Engine"
+                    AssemblyName = "Axiom.Engine"
+                    HintPath = "..\..\..\_axiom\Engine\bin\Debug\Axiom.Engine.dll"
+                />
+                <Reference
+                    Name = "bdb.core.tools"
+                    AssemblyName = "bdb.core.tools"
+                    HintPath = "..\bdb.tools\bin\Debug\bdb.core.tools.dll"
+                />
+                <Reference
+                    Name = "Axiom.Plugins.CgProgramManager"
+                    AssemblyName = "Axiom.Plugins.CgProgramManager"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.Plugins.CgProgramManager.dll"
+                />
+                <Reference
+                    Name = "Axiom.Plugins.ParticleFX"
+                    AssemblyName = "Axiom.Plugins.ParticleFX"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.Plugins.ParticleFX.dll"
+                />
+                <Reference
+                    Name = "Axiom.SceneManagers.Octree"
+                    AssemblyName = "Axiom.SceneManagers.Octree"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.SceneManagers.Octree.dll"
+                />
+                <Reference
+                    Name = "Axiom.RenderSystems.DirectX9"
+                    AssemblyName = "Axiom.RenderSystems.DirectX9"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.RenderSystems.DirectX9.dll"
+                />
+                <Reference
+                    Name = "Axiom.RenderSystems.OpenGL"
+                    AssemblyName = "Axiom.RenderSystems.OpenGL"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.RenderSystems.OpenGL.dll"
+                />
+                <Reference
+                    Name = "Axiom.SceneManagers.Bsp"
+                    AssemblyName = "Axiom.SceneManagers.Bsp"
+                    HintPath = "..\..\..\_axiom\DemoTest\bin\Debug\Axiom.SceneManagers.Bsp.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "bdbEngineMain.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
